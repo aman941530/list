@@ -1,0 +1,82 @@
+* {
+  position: relative;
+ 
+}
+
+.box {
+  position: absolute;
+  left: 500px;
+  top: 10px;
+}
+.searchbox,
+.elementbox,
+.addelement {
+  width: 320px;
+  height: 64px;
+}
+.searchbox {
+  background: gray;
+}
+
+.elementbox {
+  background: yellow;
+  width: 320px;
+  height: 400px;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.addelement {
+  background: palevioletred;
+  height:100px
+}
+
+.addelement,
+.searchbox {
+  text-align: center;
+  position: relative;
+}
+
+#search {
+  transform: translateY(1em);
+  height: 30px;background: white;
+}
+
+.btnbox {
+  transform: translateY(20px) ;
+}
+
+.newli {
+  width: 16em;
+  height: 2em;
+ 
+  margin:8px 10px;
+  transform: translateX(-15px);
+  
+}
+
+.newbutton {
+  float: right;
+  margin: 5px;
+}
+
+.newbutton:hover {
+  color:blue ;
+  transform: scale(0.9);
+}
+
+.h1tag{
+  display: inline-block;
+  font-size:x-large;
+margin: 4px ;
+box-sizing: border-box;
+}
+
+#hide-element{
+  color:red
+}
+
+ul{
+  list-style: none;
+ 
+}
